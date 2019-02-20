@@ -1,0 +1,3 @@
+interface PatternElement {
+  parse(): string;
+}

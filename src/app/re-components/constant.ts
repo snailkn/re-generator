@@ -1,0 +1,1 @@
+const RESERVED_CHARACTER = '\\/.*+?$^(){}[';
