@@ -1,0 +1,5 @@
+<p>
+  <span *ngFor="let textContent of textContents" class="{{textContent.type}}">
+    {{checkerContent.text.slice(textContent.begin, textContent.end)}}
+  </span>
+</p>

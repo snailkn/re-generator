@@ -8,7 +8,8 @@ import { AppComponent } from './app.component';
 import { ReBuilderComponent } from './re-builder/re-builder/re-builder.component';
 import { ReBoothComponent } from './re-builder/re-booth/re-booth.component';
 import { ReFactoryComponent } from './re-builder/re-factory/re-factory.component';
-import { ReCheckerComponent } from './re-builder/re-checker/re-checker.component';
+import { ReCheckerComponent } from './re-builder/re-checker/re-checker/re-checker.component';
+import { TextCheckerComponent } from './re-builder/re-checker/text-checker/text-checker.component';
 
 /** 配置 angular i18n **/
 @NgModule({
@@ -17,7 +18,8 @@ import { ReCheckerComponent } from './re-builder/re-checker/re-checker.component
     ReBuilderComponent,
     ReBoothComponent,
     ReFactoryComponent,
-    ReCheckerComponent
+    ReCheckerComponent,
+    TextCheckerComponent,
   ],
   imports: [
     BrowserModule,

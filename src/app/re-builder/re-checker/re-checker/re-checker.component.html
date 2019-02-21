@@ -1,0 +1,13 @@
+<nz-card style="min-height: 50vh;">
+  <nz-list [nzDataSource]="texts" nzSize="large" [nzRenderItem]="item">
+    <ng-template #item let-item>
+      <nz-list-item>
+        <nz-list-item-meta [nzDescription]="nzDescription">
+          <ng-template #nzDescription>
+            <app-text-checker [checkerContent]="item"></app-text-checker>
+          </ng-template>
+        </nz-list-item-meta>
+      </nz-list-item>
+    </ng-template>
+  </nz-list>
+</nz-card>
